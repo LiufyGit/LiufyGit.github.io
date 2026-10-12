@@ -1,0 +1,24 @@
+site_name: 我的科研日志资料库
+site_url: https://LiufyGit.github.io/
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.tabs
+    - search.suggest
+    - search.highlight
+nav:
+  - 首页: index.md
+  - 每日日志: journal.md
+  - 计划 & 备忘录: todos.md
+  - 资料归档: assets/
+plugins:
+  - search:
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.arithmatex:
+      generic: true
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

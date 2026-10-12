@@ -1,0 +1,10 @@
+# Obsidian本地配置，不上传到github
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/app.json
+.obsidian/plugins/obsidian-git/data.json
+
+# 系统垃圾文件
+.DS_Store
+Thumbs.db
+.trash/
